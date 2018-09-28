@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 85, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>10</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 87 18pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Verifikasi Timbangan</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_submit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>340</y>
+     <width>600</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 0);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SUBMIT</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>561</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>5</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Mesin :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="cb_mesin">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(225, 225, 225);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Mesin 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mesin 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mesin 3</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QComboBox" name="cb_line">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(225, 225, 225);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Line 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Line 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Line 3</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Kategori :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Berat (gr) :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Line :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="3">
+     <widget class="QComboBox" name="cb_kategori">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(225, 225, 225);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Kategori 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kategori 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kategori 3</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="3">
+     <widget class="QLabel" name="lbl_berat">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(225, 225, 225);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>100</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="exit_pb">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(243, 0, 0);
+font: 75 28pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
