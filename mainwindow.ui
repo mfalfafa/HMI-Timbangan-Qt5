@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pb_logout">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -415,7 +415,7 @@ border-color: rgb(0, 170, 255);</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="pb_kirim">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -518,7 +518,7 @@ border-color: rgb(0, 170, 255);</string>
     </property>
    </widget>
    <zorder>label_12</zorder>
-   <zorder>pushButton</zorder>
+   <zorder>pb_logout</zorder>
    <zorder>label</zorder>
    <zorder>label_3</zorder>
    <zorder>horizontalWidget</zorder>

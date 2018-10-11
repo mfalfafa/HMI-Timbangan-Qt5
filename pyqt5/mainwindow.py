@@ -14,12 +14,12 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 480)
         self.centralWidget = QtWidgets.QWidget(MainWindow)
         self.centralWidget.setObjectName("centralWidget")
-        self.pushButton = QtWidgets.QPushButton(self.centralWidget)
-        self.pushButton.setGeometry(QtCore.QRect(20, 20, 121, 41))
-        self.pushButton.setStyleSheet("color: rgb(255, 255, 255);\n"
+        self.pb_logout = QtWidgets.QPushButton(self.centralWidget)
+        self.pb_logout.setGeometry(QtCore.QRect(20, 20, 121, 41))
+        self.pb_logout.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(225, 0, 0);\n"
 "font: 75 18pt \"Arial\";")
-        self.pushButton.setObjectName("pushButton")
+        self.pb_logout.setObjectName("pb_logout")
         self.label = QtWidgets.QLabel(self.centralWidget)
         self.label.setGeometry(QtCore.QRect(20, 70, 121, 31))
         self.label.setStyleSheet("color: rgb(229, 0, 0);\n"
@@ -169,18 +169,18 @@ class Ui_MainWindow(object):
         self.label_11.setAlignment(QtCore.Qt.AlignCenter)
         self.label_11.setObjectName("label_11")
         self.verticalLayout_2.addWidget(self.label_11)
-        self.pushButton_2 = QtWidgets.QPushButton(self.verticalWidget)
+        self.pb_kirim = QtWidgets.QPushButton(self.verticalWidget)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.pushButton_2.sizePolicy().hasHeightForWidth())
-        self.pushButton_2.setSizePolicy(sizePolicy)
-        self.pushButton_2.setMinimumSize(QtCore.QSize(0, 50))
-        self.pushButton_2.setStyleSheet("font: 75 13pt \"Arial\";\n"
+        sizePolicy.setHeightForWidth(self.pb_kirim.sizePolicy().hasHeightForWidth())
+        self.pb_kirim.setSizePolicy(sizePolicy)
+        self.pb_kirim.setMinimumSize(QtCore.QSize(0, 50))
+        self.pb_kirim.setStyleSheet("font: 75 13pt \"Arial\";\n"
 "background-color: rgb(255, 170, 0);\n"
 "color: rgb(0, 0, 0);")
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.verticalLayout_2.addWidget(self.pushButton_2)
+        self.pb_kirim.setObjectName("pb_kirim")
+        self.verticalLayout_2.addWidget(self.pb_kirim)
         self.label_12 = QtWidgets.QLabel(self.centralWidget)
         self.label_12.setGeometry(QtCore.QRect(20, 150, 761, 300))
         self.label_12.setStyleSheet("background-color: rgb(255, 255, 255);\n"
@@ -207,7 +207,7 @@ class Ui_MainWindow(object):
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
         self.label_12.raise_()
-        self.pushButton.raise_()
+        self.pb_logout.raise_()
         self.label.raise_()
         self.label_3.raise_()
         self.horizontalWidget.raise_()
@@ -224,7 +224,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Logout"))
+        self.pb_logout.setText(_translate("MainWindow", "Logout"))
         self.label.setText(_translate("MainWindow", "Operator 1"))
         self.label_3.setText(_translate("MainWindow", "09:45:55"))
         self.label_5.setText(_translate("MainWindow", "Info"))
@@ -250,7 +250,7 @@ class Ui_MainWindow(object):
         self.comboBox_3.setItemText(4, _translate("MainWindow", "Kategori 5"))
         self.label_10.setText(_translate("MainWindow", "Berat (gr)"))
         self.label_11.setText(_translate("MainWindow", "100"))
-        self.pushButton_2.setText(_translate("MainWindow", "Kirim"))
+        self.pb_kirim.setText(_translate("MainWindow", "Kirim"))
         self.hmi_type.setText(_translate("MainWindow", "Timbangan"))
         self.label_2.setText(_translate("MainWindow", "Tidak ada data."))
 
