@@ -58,9 +58,17 @@ def timeValue():
 
 class VerificationWindow(QMainWindow, verificationwindow.Ui_Form):
     def submit(self):
+        global mainwin
         self.close()
+        mainwin.setEnabled(True)
+    
+    def closed(self):
+        global mainwin
+        self.close()
+        mainwin.setEnabled(True)
 
     def __init__(self):
+        global mainwin
         super(self.__class__, self).__init__()
         self.setupUi(self) # gets defined in the UI file
         # Move to the center of window
@@ -72,7 +80,7 @@ class VerificationWindow(QMainWindow, verificationwindow.Ui_Form):
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.lbl_berat.setMargin(10)
         self.pb_submit.released.connect(self.submit)
-        self.exit_pb.released.connect(self.close)
+        self.exit_pb.released.connect(self.closed)
         
 # create class for our Raspberry Pi GUI
 class LoginWindow(QMainWindow, loginwindow.Ui_Form):
@@ -103,6 +111,7 @@ class MainWindow(QMainWindow, mainwindow.Ui_MainWindow):
     def kirim(self):
         global verificationwin
         verificationwin.show()
+        self.setEnabled(False)
 
     def __init__(self):
         global time_lbl,ready_setup
