@@ -247,6 +247,9 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
       <property name="text">
        <string>100</string>
       </property>
+      <property name="margin">
+       <number>10</number>
+      </property>
      </widget>
     </item>
    </layout>

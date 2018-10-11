@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Qt\HMI_Timbangan\mainwindow.ui'
+# Form implementation generated from reading ui file 'D:/Qt/HMI-Timbangan-Qt5/mainwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
 #
@@ -18,12 +18,12 @@ class Ui_MainWindow(object):
         self.pushButton.setGeometry(QtCore.QRect(20, 20, 121, 41))
         self.pushButton.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(225, 0, 0);\n"
-"font: 87 12pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(self.centralWidget)
         self.label.setGeometry(QtCore.QRect(20, 70, 121, 31))
         self.label.setStyleSheet("color: rgb(229, 0, 0);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.label_3 = QtWidgets.QLabel(self.centralWidget)
@@ -42,14 +42,14 @@ class Ui_MainWindow(object):
         self.label_5 = QtWidgets.QLabel(self.horizontalWidget)
         self.label_5.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(0, 0, 255);\n"
-"font: 87 12pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setObjectName("label_5")
         self.horizontalLayout.addWidget(self.label_5)
         self.label_4 = QtWidgets.QLabel(self.horizontalWidget)
         self.label_4.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(0, 0, 255);\n"
-"font: 87 12pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
         self.horizontalLayout.addWidget(self.label_4)
@@ -57,7 +57,7 @@ class Ui_MainWindow(object):
         self.label_6.setMinimumSize(QtCore.QSize(280, 0))
         self.label_6.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(0, 0, 255);\n"
-"font: 87 12pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setObjectName("label_6")
         self.horizontalLayout.addWidget(self.label_6)
@@ -196,7 +196,7 @@ class Ui_MainWindow(object):
         self.hmi_type = QtWidgets.QLabel(self.centralWidget)
         self.hmi_type.setGeometry(QtCore.QRect(620, 20, 161, 41))
         self.hmi_type.setStyleSheet("color: rgb(0, 155, 232);\n"
-"font: 87 12pt \"Arial Black\";\n"
+"font: 75 18pt \"Arial\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(0, 170, 255);")
         self.hmi_type.setFrameShape(QtWidgets.QFrame.Box)

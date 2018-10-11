@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Qt\HMI_Timbangan\verificationwindow.ui'
+# Form implementation generated from reading ui file 'D:/Qt/HMI-Timbangan-Qt5/verificationwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
 #
