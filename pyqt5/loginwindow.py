@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Qt\HMI_Timbangan\loginwindow.ui'
+# Form implementation generated from reading ui file 'D:/Qt/HMI-Timbangan-Qt5/loginwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
 #
@@ -16,22 +16,22 @@ class Ui_Form(object):
         self.label_5.setGeometry(QtCore.QRect(260, 215, 280, 50))
         self.label_5.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(255, 170, 0);\n"
-"font: 75 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setObjectName("label_5")
         self.corner = QtWidgets.QLabel(Form)
         self.corner.setGeometry(QtCore.QRect(690, 390, 111, 91))
         self.corner.setText("")
-        self.corner.setPixmap(QtGui.QPixmap("corner.png"))
+        self.corner.setPixmap(QtGui.QPixmap("pyqt5/corner.png"))
         self.corner.setObjectName("corner")
         self.copyright = QtWidgets.QLabel(Form)
         self.copyright.setGeometry(QtCore.QRect(20, 440, 161, 31))
-        self.copyright.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.copyright.setStyleSheet("font: 75 12pt \"Arial\";")
         self.copyright.setObjectName("copyright")
         self.hmi_type = QtWidgets.QLabel(Form)
         self.hmi_type.setGeometry(QtCore.QRect(620, 20, 161, 41))
         self.hmi_type.setStyleSheet("color: rgb(0, 155, 232);\n"
-"font: 87 12pt \"Arial Black\";\n"
+"font: 75 17pt \"Arial\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(0, 170, 255);")
         self.hmi_type.setFrameShape(QtWidgets.QFrame.Box)
@@ -43,7 +43,7 @@ class Ui_Form(object):
         self.logo_mv = QtWidgets.QLabel(Form)
         self.logo_mv.setGeometry(QtCore.QRect(20, 20, 91, 81))
         self.logo_mv.setText("")
-        self.logo_mv.setPixmap(QtGui.QPixmap("MMM.png"))
+        self.logo_mv.setPixmap(QtGui.QPixmap("pyqt5/MMM.png"))
         self.logo_mv.setScaledContents(True)
         self.logo_mv.setObjectName("logo_mv")
 

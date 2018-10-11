@@ -25,7 +25,7 @@
    <property name="styleSheet">
     <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(255, 170, 0);
-font: 75 14pt &quot;Arial Black&quot;;</string>
+font: 75 18pt &quot;Arial&quot;;</string>
    </property>
    <property name="text">
     <string>Tempelkan RFID</string>
@@ -60,7 +60,7 @@ font: 75 14pt &quot;Arial Black&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    <string notr="true">font: 75 12pt &quot;Arial&quot;;</string>
    </property>
    <property name="text">
     <string>@MachineVision2018</string>
@@ -77,7 +77,7 @@ font: 75 14pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(0, 155, 232);
-font: 87 12pt &quot;Arial Black&quot;;
+font: 75 17pt &quot;Arial&quot;;
 background-color: rgb(255, 255, 255);
 border-color: rgb(0, 170, 255);</string>
    </property>

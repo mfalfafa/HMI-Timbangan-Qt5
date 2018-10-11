@@ -27,7 +27,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(255, 255, 255);
-font: 87 18pt &quot;Arial Black&quot;;</string>
+font: 75 24pt &quot;Arial&quot;;</string>
    </property>
    <property name="text">
     <string>Verifikasi Timbangan</string>
@@ -48,7 +48,7 @@ font: 87 18pt &quot;Arial Black&quot;;</string>
    <property name="styleSheet">
     <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(255, 170, 0);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 24pt &quot;Arial&quot;;</string>
    </property>
    <property name="text">
     <string>SUBMIT</string>
@@ -83,7 +83,7 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
      <widget class="QLabel" name="label_3">
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 255, 255);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 18pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Mesin :</string>
@@ -101,7 +101,7 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(225, 225, 225);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 75 14pt &quot;Arial&quot;;</string>
       </property>
       <item>
        <property name="text">
@@ -131,7 +131,7 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(225, 225, 225);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 75 14pt &quot;Arial&quot;;</string>
       </property>
       <item>
        <property name="text">
@@ -154,7 +154,7 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
      <widget class="QLabel" name="label_4">
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 255, 255);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 18pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Kategori :</string>
@@ -165,7 +165,7 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
      <widget class="QLabel" name="label_5">
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 255, 255);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 18pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Berat (gr) :</string>
@@ -188,7 +188,7 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 255, 255);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 18pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Line :</string>
@@ -206,7 +206,7 @@ font: 87 14pt &quot;Arial Black&quot;;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(225, 225, 225);
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 75 14pt &quot;Arial&quot;;</string>
       </property>
       <item>
        <property name="text">
@@ -242,7 +242,7 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(255, 0, 0);
 background-color: rgb(225, 225, 225);
-font: 87 14pt &quot;Arial Black&quot;;</string>
+font: 75 17pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>100</string>

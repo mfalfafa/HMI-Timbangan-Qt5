@@ -16,14 +16,14 @@ class Ui_Form(object):
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(155, 10, 290, 50))
         self.label.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 18pt \"Arial Black\";")
+"font: 75 24pt \"Arial\";")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.pb_submit = QtWidgets.QPushButton(Form)
         self.pb_submit.setGeometry(QtCore.QRect(0, 340, 600, 60))
         self.pb_submit.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgb(255, 170, 0);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 24pt \"Arial\";")
         self.pb_submit.setObjectName("pb_submit")
         self.gridWidget = QtWidgets.QWidget(Form)
         self.gridWidget.setGeometry(QtCore.QRect(20, 100, 561, 221))
@@ -34,14 +34,14 @@ class Ui_Form(object):
         self.gridLayout.setObjectName("gridLayout")
         self.label_3 = QtWidgets.QLabel(self.gridWidget)
         self.label_3.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_3.setObjectName("label_3")
         self.gridLayout.addWidget(self.label_3, 0, 0, 1, 1)
         self.cb_mesin = QtWidgets.QComboBox(self.gridWidget)
         self.cb_mesin.setMinimumSize(QtCore.QSize(0, 35))
         self.cb_mesin.setStyleSheet("color: rgb(0, 0, 0);\n"
 "background-color: rgb(225, 225, 225);\n"
-"font: 12pt \"MS Shell Dlg 2\";")
+"font: 75 14pt \"Arial\";")
         self.cb_mesin.setObjectName("cb_mesin")
         self.cb_mesin.addItem("")
         self.cb_mesin.addItem("")
@@ -51,7 +51,7 @@ class Ui_Form(object):
         self.cb_line.setMinimumSize(QtCore.QSize(0, 35))
         self.cb_line.setStyleSheet("color: rgb(0, 0, 0);\n"
 "background-color: rgb(225, 225, 225);\n"
-"font: 12pt \"MS Shell Dlg 2\";")
+"font: 75 14pt \"Arial\";")
         self.cb_line.setObjectName("cb_line")
         self.cb_line.addItem("")
         self.cb_line.addItem("")
@@ -59,12 +59,12 @@ class Ui_Form(object):
         self.gridLayout.addWidget(self.cb_line, 0, 3, 1, 1)
         self.label_4 = QtWidgets.QLabel(self.gridWidget)
         self.label_4.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_4.setObjectName("label_4")
         self.gridLayout.addWidget(self.label_4, 1, 0, 1, 1)
         self.label_5 = QtWidgets.QLabel(self.gridWidget)
         self.label_5.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_5.setObjectName("label_5")
         self.gridLayout.addWidget(self.label_5, 2, 0, 1, 1)
         self.label_2 = QtWidgets.QLabel(self.gridWidget)
@@ -75,14 +75,14 @@ class Ui_Form(object):
         self.label_2.setSizePolicy(sizePolicy)
         self.label_2.setMinimumSize(QtCore.QSize(80, 0))
         self.label_2.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 18pt \"Arial\";")
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 2, 1, 1)
         self.cb_kategori = QtWidgets.QComboBox(self.gridWidget)
         self.cb_kategori.setMinimumSize(QtCore.QSize(0, 35))
         self.cb_kategori.setStyleSheet("color: rgb(0, 0, 0);\n"
 "background-color: rgb(225, 225, 225);\n"
-"font: 12pt \"MS Shell Dlg 2\";")
+"font: 75 14pt \"Arial\";")
         self.cb_kategori.setObjectName("cb_kategori")
         self.cb_kategori.addItem("")
         self.cb_kategori.addItem("")
@@ -97,7 +97,7 @@ class Ui_Form(object):
         self.lbl_berat.setMinimumSize(QtCore.QSize(0, 50))
         self.lbl_berat.setStyleSheet("color: rgb(255, 0, 0);\n"
 "background-color: rgb(225, 225, 225);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 17pt \"Arial\";")
         self.lbl_berat.setObjectName("lbl_berat")
         self.gridLayout.addWidget(self.lbl_berat, 2, 1, 1, 3)
         self.exit_pb = QtWidgets.QPushButton(Form)

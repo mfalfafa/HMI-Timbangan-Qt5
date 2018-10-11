@@ -27,9 +27,9 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.label_3 = QtWidgets.QLabel(self.centralWidget)
-        self.label_3.setGeometry(QtCore.QRect(710, 70, 71, 31))
+        self.label_3.setGeometry(QtCore.QRect(680, 70, 101, 31))
         self.label_3.setStyleSheet("color: rgb(229, 0, 0);\n"
-"font: 87 14pt \"Arial Black\";")
+"font: 75 17pt \"Arial\";")
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
         self.label_3.setObjectName("label_3")
         self.horizontalWidget = QtWidgets.QWidget(self.centralWidget)
@@ -75,7 +75,7 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.label_7.sizePolicy().hasHeightForWidth())
         self.label_7.setSizePolicy(sizePolicy)
         self.label_7.setBaseSize(QtCore.QSize(0, 0))
-        self.label_7.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.label_7.setStyleSheet("font: 75 12pt \"Arial\";")
         self.label_7.setObjectName("label_7")
         self.verticalLayout.addWidget(self.label_7)
         self.comboBox = QtWidgets.QComboBox(self.verticalWidget_2)
@@ -84,7 +84,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.comboBox.sizePolicy().hasHeightForWidth())
         self.comboBox.setSizePolicy(sizePolicy)
-        self.comboBox.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.comboBox.setStyleSheet("font: 75 14pt \"Arial\";")
         self.comboBox.setObjectName("comboBox")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
@@ -98,7 +98,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_8.sizePolicy().hasHeightForWidth())
         self.label_8.setSizePolicy(sizePolicy)
-        self.label_8.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.label_8.setStyleSheet("font: 75 12pt \"Arial\";")
         self.label_8.setObjectName("label_8")
         self.verticalLayout.addWidget(self.label_8)
         self.comboBox_2 = QtWidgets.QComboBox(self.verticalWidget_2)
@@ -107,7 +107,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.comboBox_2.sizePolicy().hasHeightForWidth())
         self.comboBox_2.setSizePolicy(sizePolicy)
-        self.comboBox_2.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.comboBox_2.setStyleSheet("font: 75 14pt \"Arial\";")
         self.comboBox_2.setObjectName("comboBox_2")
         self.comboBox_2.addItem("")
         self.comboBox_2.addItem("")
@@ -121,7 +121,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_9.sizePolicy().hasHeightForWidth())
         self.label_9.setSizePolicy(sizePolicy)
-        self.label_9.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.label_9.setStyleSheet("font: 75 12pt \"Arial\";")
         self.label_9.setObjectName("label_9")
         self.verticalLayout.addWidget(self.label_9)
         self.comboBox_3 = QtWidgets.QComboBox(self.verticalWidget_2)
@@ -130,7 +130,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.comboBox_3.sizePolicy().hasHeightForWidth())
         self.comboBox_3.setSizePolicy(sizePolicy)
-        self.comboBox_3.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.comboBox_3.setStyleSheet("font: 75 14pt \"Arial\";")
         self.comboBox_3.setObjectName("comboBox_3")
         self.comboBox_3.addItem("")
         self.comboBox_3.addItem("")
@@ -157,12 +157,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_10.sizePolicy().hasHeightForWidth())
         self.label_10.setSizePolicy(sizePolicy)
-        self.label_10.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
+        self.label_10.setStyleSheet("font: 75 12pt \"Arial\";")
         self.label_10.setObjectName("label_10")
         self.verticalLayout_2.addWidget(self.label_10)
         self.label_11 = QtWidgets.QLabel(self.verticalWidget)
         self.label_11.setStyleSheet("color: rgb(0, 0, 0);\n"
-"font: 18pt \"MS Shell Dlg 2\";\n"
+"font: 75 18pt \"Arial\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(0, 170, 255);")
         self.label_11.setFrameShape(QtWidgets.QFrame.Box)
@@ -176,7 +176,7 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.pushButton_2.sizePolicy().hasHeightForWidth())
         self.pushButton_2.setSizePolicy(sizePolicy)
         self.pushButton_2.setMinimumSize(QtCore.QSize(0, 50))
-        self.pushButton_2.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";\n"
+        self.pushButton_2.setStyleSheet("font: 75 13pt \"Arial\";\n"
 "background-color: rgb(255, 170, 0);\n"
 "color: rgb(0, 0, 0);")
         self.pushButton_2.setObjectName("pushButton_2")
@@ -196,7 +196,7 @@ class Ui_MainWindow(object):
         self.hmi_type = QtWidgets.QLabel(self.centralWidget)
         self.hmi_type.setGeometry(QtCore.QRect(620, 20, 161, 41))
         self.hmi_type.setStyleSheet("color: rgb(0, 155, 232);\n"
-"font: 75 18pt \"Arial\";\n"
+"font: 75 17pt \"Arial\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(0, 170, 255);")
         self.hmi_type.setFrameShape(QtWidgets.QFrame.Box)
@@ -226,7 +226,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "Logout"))
         self.label.setText(_translate("MainWindow", "Operator 1"))
-        self.label_3.setText(_translate("MainWindow", "09:45"))
+        self.label_3.setText(_translate("MainWindow", "09:45:55"))
         self.label_5.setText(_translate("MainWindow", "Info"))
         self.label_4.setText(_translate("MainWindow", "Berat"))
         self.label_6.setText(_translate("MainWindow", "Histori"))
