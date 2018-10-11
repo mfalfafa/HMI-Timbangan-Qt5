@@ -2,7 +2,7 @@
 import sys
  
 # For PostgreSQL database 
-import psycopg2
+# import psycopg2
 
 # This gets the Qt stuff
 import PyQt5
