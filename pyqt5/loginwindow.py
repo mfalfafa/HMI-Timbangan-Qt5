@@ -22,7 +22,9 @@ class Ui_Form(object):
         self.corner = QtWidgets.QLabel(Form)
         self.corner.setGeometry(QtCore.QRect(690, 390, 111, 91))
         self.corner.setText("")
-        self.corner.setPixmap(QtGui.QPixmap("corner.png"))
+        # self.corner.setPixmap(QtGui.QPixmap("corner.png"))
+        # for raspi 3
+        self.corner.setPixmap(QtGui.QPixmap("/home/pi/HMI-Timbangan-Qt5/pyqt5/corner.png"))
         self.corner.setObjectName("corner")
         self.copyright = QtWidgets.QLabel(Form)
         self.copyright.setGeometry(QtCore.QRect(20, 440, 161, 31))
@@ -43,7 +45,9 @@ class Ui_Form(object):
         self.logo_mv = QtWidgets.QLabel(Form)
         self.logo_mv.setGeometry(QtCore.QRect(20, 20, 91, 81))
         self.logo_mv.setText("")
-        self.logo_mv.setPixmap(QtGui.QPixmap("MMM.png"))
+        # self.logo_mv.setPixmap(QtGui.QPixmap("MMM.png"))
+        # For raspi 3
+        self.logo_mv.setPixmap(QtGui.QPixmap("/home/pi/HMI-Timbangan-Qt5/pyqt5/MMM.png"))
         self.logo_mv.setScaledContents(True)
         self.logo_mv.setObjectName("logo_mv")
 
