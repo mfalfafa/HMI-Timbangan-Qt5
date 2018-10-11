@@ -27,6 +27,34 @@ verificationwin=''
 
 # Component variables
 rfid_val=''
+time_lbl=''
+
+# variables
+timeThread=''
+ready_setup=0
+
+class TimeThread(threading.Thread):
+    def __init__(self):
+        threading.Thread.__init__(self)
+    def run(self):
+        timeValue()
+
+def timeValue():
+    global time_lbl,ready_setup
+    while 1:        
+        current_time=time.localtime(time.time())
+        time_now=[0]*3
+        time_now[0]=str(current_time.tm_hour)
+        time_now[1]=str(current_time.tm_min)
+        time_now[2]=str(current_time.tm_sec)
+        current_time=''
+        for i in range(3):
+            if len(time_now[i])==1:
+                time_now[i]='0'+time_now[i]
+        current_time=time_now[0]+':'+time_now[1]+':'+time_now[2]
+        if ready_setup==1:
+            time_lbl.setText(current_time)
+        time.sleep(1)
 
 class VerificationWindow(QMainWindow, verificationwindow.Ui_Form):
     def submit(self):
@@ -77,10 +105,13 @@ class MainWindow(QMainWindow, mainwindow.Ui_MainWindow):
         verificationwin.show()
 
     def __init__(self):
+        global time_lbl,ready_setup
         super(self.__class__, self).__init__()
         self.setupUi(self) # gets defined in the UI file
         self.pb_logout.released.connect(self.logout)
         self.pb_kirim.released.connect(self.kirim)
+        time_lbl=self.time_lbl
+        ready_setup=1
         
 # I feel better having one of these
 def main():
@@ -96,6 +127,15 @@ def main():
     # verificationwin.show()
     # without this, the script exits immediately.
     sys.exit(app.exec_())
+
+# Create new thread for sending data every second
+try:
+    timeThread=TimeThread()
+except Exception as e:
+    print ("Error: unable to start thread!")
+    print (str(e))
+# Start thread
+timeThread.start()
 
 # python bit to figure how who started This
 if __name__ == "__main__":

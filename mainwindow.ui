@@ -52,7 +52,7 @@ font: 75 18pt &quot;Arial&quot;;</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="time_lbl">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -506,7 +506,7 @@ border-color: rgb(0, 170, 255);</string>
      <rect>
       <x>590</x>
       <y>290</y>
-      <width>91</width>
+      <width>101</width>
       <height>21</height>
      </rect>
     </property>
@@ -520,7 +520,7 @@ border-color: rgb(0, 170, 255);</string>
    <zorder>label_12</zorder>
    <zorder>pb_logout</zorder>
    <zorder>label</zorder>
-   <zorder>label_3</zorder>
+   <zorder>time_lbl</zorder>
    <zorder>horizontalWidget</zorder>
    <zorder>verticalWidget_2</zorder>
    <zorder>label_13</zorder>
