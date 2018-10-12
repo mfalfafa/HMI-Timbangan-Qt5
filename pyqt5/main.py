@@ -36,6 +36,7 @@ timeThread=''
 serialThread=''
 ready_setup=0
 serData=''
+ready_to_count=0
 
 class SerialThread(threading.Thread):
     def __init__(self):
@@ -44,7 +45,7 @@ class SerialThread(threading.Thread):
         getSerialData()
 
 def getSerialData():
-    global serData,lbl_berat_gr
+    global serData,lbl_berat_gr,ready_to_count
     ## Establish connection to COM Port
     ## Connection from HMI
     connected = False
@@ -83,24 +84,26 @@ def getSerialData():
         connected=False
 
     while 1:
-        try:
-            if ser_rfid.inWaiting():
-                x=ser_rfid.read()
-                x=x.decode('ascii')
-                serData=serData + str(x)
-                if x == '\r':
-                    n=len(str(serData))
-                    m=len(str(serData))-4
-                    start = n-m
-                    end = serData.index( 'kg', start )
-                    serData = serData[start:end]
-                    # Omit space in string
-                    serData = serData.replace(' ','')
-                    lbl_berat_gr.setText(str(serData))
-                    print(serData)
-                    serData=''
-        except:
-            print ("Serial error")
+        if ready_to_count==1:
+            time.sleep(0.5)
+            try:
+                if ser_rfid.inWaiting():
+                    x=ser_rfid.read()
+                    x=x.decode('ascii')
+                    serData=serData + str(x)
+                    if x == '\r':
+                        n=len(str(serData))
+                        m=len(str(serData))-4
+                        start = n-m
+                        end = serData.index( 'kg', start )
+                        serData = serData[start:end]
+                        # Omit space in string
+                        serData = serData.replace(' ','')
+                        lbl_berat_gr.setText(str(serData))
+                        print(serData)
+                        serData=''
+            except:
+                print ("Serial error")
 
 class TimeThread(threading.Thread):
     def __init__(self):
@@ -154,10 +157,11 @@ class VerificationWindow(QMainWindow, verificationwindow.Ui_Form):
 # create class for our Raspberry Pi GUI
 class LoginWindow(QMainWindow, loginwindow.Ui_Form):
     def retPressed(self):
-        global rfid_val,loginwin,mainwin
+        global rfid_val,loginwin,mainwin,ready_to_count
         if rfid_val.text() == '123':
             self.close()
             mainwin.show()
+            ready_to_count=1
 
     def __init__(self):
         global rfid_val
@@ -171,11 +175,12 @@ class MainWindow(QMainWindow, mainwindow.Ui_MainWindow):
     def pb_rework_press(self):
         pass
     def logout(self):
-        global loginwin,rfid_val
+        global loginwin,rfid_val,ready_to_count
         self.close()
         loginwin.show()
         rfid_val.setText('')
         rfid_val.setFocus()
+        ready_to_count=0
 
     def kirim(self):
         global verificationwin
