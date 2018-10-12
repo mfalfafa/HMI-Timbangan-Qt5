@@ -160,15 +160,15 @@ class Ui_MainWindow(object):
         self.label_10.setStyleSheet("font: 75 12pt \"Arial\";")
         self.label_10.setObjectName("label_10")
         self.verticalLayout_2.addWidget(self.label_10)
-        self.label_11 = QtWidgets.QLabel(self.verticalWidget)
-        self.label_11.setStyleSheet("color: rgb(0, 0, 0);\n"
+        self.lbl_berat_gr = QtWidgets.QLabel(self.verticalWidget)
+        self.lbl_berat_gr.setStyleSheet("color: rgb(0, 0, 0);\n"
 "font: 75 18pt \"Arial\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(0, 170, 255);")
-        self.label_11.setFrameShape(QtWidgets.QFrame.Box)
-        self.label_11.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_11.setObjectName("label_11")
-        self.verticalLayout_2.addWidget(self.label_11)
+        self.lbl_berat_gr.setFrameShape(QtWidgets.QFrame.Box)
+        self.lbl_berat_gr.setAlignment(QtCore.Qt.AlignCenter)
+        self.lbl_berat_gr.setObjectName("lbl_berat_gr")
+        self.verticalLayout_2.addWidget(self.lbl_berat_gr)
         self.pb_kirim = QtWidgets.QPushButton(self.verticalWidget)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -249,7 +249,7 @@ class Ui_MainWindow(object):
         self.comboBox_3.setItemText(3, _translate("MainWindow", "Kategori 4"))
         self.comboBox_3.setItemText(4, _translate("MainWindow", "Kategori 5"))
         self.label_10.setText(_translate("MainWindow", "Berat (gr)"))
-        self.label_11.setText(_translate("MainWindow", "100"))
+        self.lbl_berat_gr.setText(_translate("MainWindow", "0"))
         self.pb_kirim.setText(_translate("MainWindow", "Kirim"))
         self.hmi_type.setText(_translate("MainWindow", "Timbangan"))
         self.label_2.setText(_translate("MainWindow", "Tidak ada data."))

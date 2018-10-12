@@ -396,7 +396,7 @@ font: 75 18pt &quot;Arial&quot;;</string>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="label_11">
+      <widget class="QLabel" name="lbl_berat_gr">
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
 font: 75 18pt &quot;Arial&quot;;
@@ -407,7 +407,7 @@ border-color: rgb(0, 170, 255);</string>
         <enum>QFrame::Box</enum>
        </property>
        <property name="text">
-        <string>100</string>
+        <string>0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
