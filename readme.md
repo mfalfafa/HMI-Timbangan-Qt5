@@ -14,3 +14,7 @@ To disable boot messages:
 ```
 remove console=tty1 to /boot/cmdline.txt
 ```
+
+> References
+
+1. https://scribles.net/customizing-boot-up-screen-on-raspberry-pi/
